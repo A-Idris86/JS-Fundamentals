@@ -1,0 +1,20 @@
+// Node.js ist eine Umgebung, mit der du JavaScript außerhalb eines Browsers ausführen kannst.
+// Normalerweise kennst du JavaScript vielleicht aus Webseiten. Damit kannst du beispielsweise Buttons anklickbar machen oder Inhalte dynamisch verändern.
+
+// Mit Node.js kannst du JavaScript auch auf einem Server ausführen und damit beispielsweise:
+// - Webseiten und Webserver erstellen.
+// - Datenbanken verwalten.
+// - REST-APIs entwickeln.
+// - Dateien lesen und schreiben.
+// - Benutzeranmeldungen implementieren.
+// - Backend-Anwendungen programmieren.
+
+
+
+// Die package.json ist sozusagen der Steckbrief eines JavaScript- bzw. TypeScript-Projekts. 
+// Sobald du mit Tools wie Playwright, Cypress, WebdriverIO, Jest oder Mocha arbeitest, 
+// kommst du an ihr nicht vorbei.
+
+// 1. Abhängigkeiten festhalten. Dort steht, welche Test-Frameworks, Assertion-Libraries, 
+// Reporter oder Hilfspakete (z. B. @playwright/test, cypress, allure-playwright, dotenv) 
+// dein Projekt braucht, und in welcher Version. Testtools landen meist unter devDependencies, weil sie nur zur Entwicklung und Prüfung gebraucht werden, nicht im ausgelieferten Produkt. Zusammen mit der package-lock.json sorgt das dafür, dass alle im Team und die CI-Pipeline exakt dieselben Versionen verwenden. Das ist wichtig, weil schon ein kleines Framework-Update Tests brechen oder flaky machen kann.
